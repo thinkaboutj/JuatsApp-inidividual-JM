@@ -1,65 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package interfaces;
 
-import dominio.Usuario;
+import entidades.Usuario;
+import excepciones.PersistenciaException;
 import java.util.List;
+import org.bson.types.ObjectId;
 
-/**
- * Interfaz para el acceso a datos de la entidad Usuario. Define métodos para
- * operaciones CRUD (crear, leer, actualizar, eliminar) en la base de datos.
- *
- * @author Jesus Medina (╹ڡ╹ ) ID:00000247527
- */
 public interface IUsuarioDAO {
 
-    /**
-     * Crea un nuevo usuario en la base de datos.
-     *
-     * @param usuario El usuario a crear.
-     * @return El usuario creado, o null si ocurre un error.
-     */
-    public Usuario createUsuario(Usuario usuario);
+    public List<Usuario> getAllUsuarios() throws PersistenciaException;
 
-    /**
-     * Lee un usuario de la base de datos.
-     *
-     * @param usuario El usuario a leer (debe tener el ID del usuario).
-     * @return El usuario leído, o null si no se encuentra.
-     */
-    public Usuario readUsuario(Usuario usuario);
+    public Boolean createUsuario(Usuario usuario) throws PersistenciaException;
 
-    /**
-     * Actualiza un usuario en la base de datos.
-     *
-     * @param usuario El usuario a actualizar.
-     * @return El usuario actualizado, o null si ocurre un error.
-     */
-    public Usuario updateUsuario(Usuario usuario);
+    public Usuario validateCredentials(String correo, String password) throws PersistenciaException;
 
-    /**
-     * Elimina un usuario de la base de datos.
-     *
-     * @param usuario El usuario a eliminar.
-     */
-    public void deleteUsuario(Usuario usuario);
+    public Usuario getTrimmedUsuarioById(ObjectId usuarioId) throws PersistenciaException;
 
-    /**
-     * Obtiene todos los usuarios almacenados en la base de datos.
-     *
-     * @return Una lista de usuarios.
-     */
-    public List<Usuario> readAllUsuario();
+    public Usuario getUsuarioByCodigo(String codigo) throws PersistenciaException;
 
-    /**
-     * Crea un nuevo usuario en la base de datos sin incluir una imagen de
-     * perfil.
-     *
-     * @param usuario El usuario a crear.
-     * @return El usuario creado, o null si ocurre un error.
-     */
-    public Usuario createUsuarioSimagen(Usuario usuario);
+    public Usuario uploadPP(byte[] imageData, ObjectId usuario) throws PersistenciaException;
 
+    public Usuario getUsuarioByCorreo(String correo) throws PersistenciaException;
 }

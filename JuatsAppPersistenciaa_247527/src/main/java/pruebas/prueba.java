@@ -18,16 +18,7 @@ public class prueba {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        ConexionBD conexionBD = new ConexionBD();
-        
-        // Crear la conexión
-        Connection conexion = conexionBD.crearConexion();
-        
-        // Realizar alguna operación con la conexión aquí (opcional)
-        
-        // Cerrar la conexión
-        conexionBD.cerrarConexion();
+     
     }
     
 }
