@@ -1,0 +1,46 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/jesus/OneDrive/Documentos/NetBeansProjects/JuatsAppDominioo_247527/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/jesus/OneDrive/Documentos/NetBeansProjects/JuatsAppDominioo_247527/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'JuatsAppDominioo_247527 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'JuatsAppDominioo_247527 1.0-SNAPSHOT API'
+dominio
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\src\main\java = 1716537275255
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\allclasses-index.html = 1716779768241
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\allpackages-index.html = 1716779768249
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\copy.svg = 1716779768345
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\element-list = 1716779768075
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\help-doc.html = 1716779768318
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\index-all.html = 1716779768301
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\index.html = 1716779768310
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\link.svg = 1716779768351
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\member-search-index.js = 1716779768256
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\module-search-index.js = 1716779768250
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\overview-tree.html = 1716779768209
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\package-search-index.js = 1716779768252
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\script.js = 1716779768343
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\search-page.js = 1716779768363
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\search.html = 1716779768305
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\search.js = 1716779768360
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\serialized-form.html = 1716779768122
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\stylesheet.css = 1716779768339
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\tag-search-index.js = 1716779768257
+C:\Users\jesus\OneDrive\Documentos\NetBeansProjects\JuatsAppDominioo_247527\target\site\apidocs\type-search-index.js = 1716779768254
