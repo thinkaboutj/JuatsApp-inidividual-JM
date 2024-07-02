@@ -1,17 +1,15 @@
-
 package entidades;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.bson.types.ObjectId;
 
-
 /**
- * 
+ *
  * @author jesus
  */
-public class Chat 
-{
+public class Chat {
+
     private ObjectId id;
     private List<Usuario> miembros;
     private List<Mensaje> mensajes;
@@ -20,17 +18,16 @@ public class Chat
     /**
      * Construye un nuevo chat vacío.
      */
-    public Chat()
-    {
-        
+    public Chat() {
+
     }
-    
+
     /**
      * Construye un nuevo chat con la lista de miembros dada.
+     *
      * @param miembros La lista de miembros que participan en el chat.
      */
-    public Chat(List<Usuario> miembros) 
-    {
+    public Chat(List<Usuario> miembros) {
         this.miembros = miembros;
         this.mensajes = new ArrayList<>();
         this.isDeleted = false;
@@ -38,6 +35,7 @@ public class Chat
 
     /**
      * Devuelve el identificador único del chat.
+     *
      * @return El ObjectId del chat.
      */
     public ObjectId getId() {
@@ -46,6 +44,7 @@ public class Chat
 
     /**
      * Establece el identificador único del chat.
+     *
      * @param id El ObjectId a establecer.
      */
     public void setId(ObjectId id) {
@@ -54,6 +53,7 @@ public class Chat
 
     /**
      * Devuelve la lista de miembros que participan en el chat.
+     *
      * @return La lista de usuarios.
      */
     public List<Usuario> getMiembros() {
@@ -62,6 +62,7 @@ public class Chat
 
     /**
      * Establece la lista de miembros que participan en el chat.
+     *
      * @param miembros La lista de usuarios a establecer.
      */
     public void setMiembros(List<Usuario> miembros) {
@@ -70,6 +71,7 @@ public class Chat
 
     /**
      * Devuelve la lista de mensajes en el chat.
+     *
      * @return La lista de mensajes.
      */
     public List<Mensaje> getMensajes() {
@@ -78,6 +80,7 @@ public class Chat
 
     /**
      * Establece la lista de mensajes en el chat.
+     *
      * @param mensajes La lista de mensajes a establecer.
      */
     public void setMensajes(List<Mensaje> mensajes) {
@@ -86,6 +89,7 @@ public class Chat
 
     /**
      * Devuelve un booleano que indica si el chat está eliminado o no.
+     *
      * @return True si el chat está eliminado, false de lo contrario.
      */
     public Boolean getIsDeleted() {
@@ -94,6 +98,7 @@ public class Chat
 
     /**
      * Establece el estado eliminado del chat.
+     *
      * @param isDeleted El valor booleano a establecer.
      */
     public void setIsDeleted(Boolean isDeleted) {
@@ -102,14 +107,12 @@ public class Chat
 
     /**
      * Devuelve una representación en cadena del chat.
+     *
      * @return Una cadena que contiene información sobre el chat.
      */
     @Override
-    public String toString() 
-    {
+    public String toString() {
         return "Mensaje{" + "miembros=" + miembros + ", mensajes=" + mensajes + '}';
     }
-    
-    
-}
 
+}

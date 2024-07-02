@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import org.bson.types.ObjectId;
 
 /**
- * 
+ *
  * @author jesus
  */
 public class Usuario {
